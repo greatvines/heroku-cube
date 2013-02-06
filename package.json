@@ -1,6 +1,6 @@
 {
   "name": "heroku-cube",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "cube": "https://github.com/cwarden/cube/tarball/collector-cors-support"
   },
