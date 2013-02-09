@@ -7,6 +7,8 @@ module.exports = {
   "mongo-host": params[3],
   "mongo-port": parseInt(params[4]),
   "mongo-database": params[5],
-  "http-port": process.env.PORT
+  "http-port": process.env.PORT,
+  "authenticator": process.env.CUBE_AUTHENTICATOR,
+  "consumer-secret": process.env.CONSUMER_SECRET
 };
 
