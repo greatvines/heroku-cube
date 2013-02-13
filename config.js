@@ -9,6 +9,7 @@ module.exports = {
   "mongo-database": params[5],
   "http-port": process.env.PORT,
   "authenticator": process.env.CUBE_AUTHENTICATOR,
-  "consumer-secret": process.env.CONSUMER_SECRET
+  "consumer-secret": process.env.CONSUMER_SECRET,
+  "valid-email": process.env.VALID_EMAIL_DOMAIN
 };
 
