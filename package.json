@@ -2,7 +2,7 @@
   "name": "heroku-cube",
   "version": "0.1.1",
   "dependencies": {
-    "cube": "https://github.com/greatvines/cube/tarball/signed-request-authenticator"
+    "cube": "https://github.com/greatvines/cube/tarball/record-user"
   },
   "engines": {
     "node": "0.6.x"
