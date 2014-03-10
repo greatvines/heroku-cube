@@ -1,11 +1,10 @@
 {
   "name": "heroku-cube",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {
-    "cube": "https://github.com/greatvines/cube/tarball/record-user"
+    "cube": "https://github.com/greatvines/cube/tarball/master"
   },
   "engines": {
-    "node": "0.6.x",
-    "npm": "1.1.x"
+    "node": "0.10.x"
   }
 }
