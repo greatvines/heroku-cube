@@ -1,5 +1,5 @@
-var mongo_url = process.env.MONGOLAB_URI,
-    params = /mongodb:\/\/(?:(\w+):(\w+)@)?([\w\.]+)(?::(\d+))?\/(\w+)/.exec(mongo_url);
+var mongo_url = process.env.MONGODB_URI;
+var params = /mongodb:\/\/(?:(\w+):(\w+)@)?([\w\.]+)(?::(\d+))?\/(\w+)/.exec(mongo_url);
 
 module.exports = {
   "mongo-username": params[1],
@@ -7,6 +7,9 @@ module.exports = {
   "mongo-host": params[3],
   "mongo-port": parseInt(params[4]),
   "mongo-database": params[5],
-  "http-port": process.env.PORT
+  "http-port": process.env.PORT,
+  "authenticator": process.env.CUBE_AUTHENTICATOR,
+  "consumer-secret": process.env.CONSUMER_SECRET,
+  "valid-email": process.env.VALID_EMAIL_DOMAIN
 };
 
