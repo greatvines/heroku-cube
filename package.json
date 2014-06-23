@@ -2,7 +2,7 @@
   "name": "heroku-cube",
   "version": "1.2.3",
   "dependencies": {
-    "cube": "https://github.com/greatvines/cube/tarball/v1.2.3"
+    "cube": "https://github.com/greatvines/cube/tarball/v1.2.3-a"
   },
   "engines": {
     "node": "0.10.x"
